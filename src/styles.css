@@ -1,0 +1,39 @@
+body {
+    background-color: #ebe6e6;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.container {
+    bottom: 0;
+    right: 15px;
+    border:6px outset rgb(201, 234, 244);
+    box-shadow: 5px 5px 15px rgba(166, 182, 203, 0.4);
+    -moz-box-shadow: 5px 5px 15px rgba(180, 200, 219, 0.4);
+    max-width: 500px;
+    padding: 10px;
+    background-color: #ffffff;
+   
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.btn{
+    margin: 10px;
+    width: 40%;
+    background-color: rgb(201, 234, 244);
+}
